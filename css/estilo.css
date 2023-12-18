@@ -1,0 +1,112 @@
+html,
+body {
+  margin: 0;
+  background-color: #f0fcf3;
+}
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #f0fcf3;
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  text-decoration: none;
+  width: 15%;
+  background-color: #f0fcf3;
+  padding: 10px 20px 0px;
+}
+.header {
+  height: 150px;
+  min-height: 150px;
+}
+.content {
+  background-color: #f0fcf3;
+  min-height: 300px;
+  padding: 20px;
+}
+.footer {
+  margin-top: 270px;
+  margin-left: 20px;
+  color: black;
+  text-align: left;
+  background-color: #f0fcf3;
+  min-height: 150px;
+}
+.menu ul {
+  list-style: none;
+  padding: 10px;
+  margin: 185px 0px 0px;
+}
+.menu ul li {
+  padding: 10px;
+  margin: 10px 0px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+table {
+  width: 100%;
+  border: 2px solid #ddd;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #c3f2cd;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
